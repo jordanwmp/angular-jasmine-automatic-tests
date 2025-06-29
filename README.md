@@ -11,6 +11,7 @@
 - Services
 - Forms
 - API
+- HTTP Methods
 - Interface elements
 - Events
 
