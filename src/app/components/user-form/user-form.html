@@ -1,0 +1,7 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <input formControlName="name" data-testid="name"/>
+  <input formControlName="email" data-testid="email" />
+  <button type="submit" data-testid="submit">Enviar</button>
+</form>
+
+<p *ngIf="submitted" data-testid="success">Enviado!</p>

@@ -1,0 +1,7 @@
+<div>
+  <button data-testid="btn-load" (click)="loadItems()">Load Items</button>
+  <ul>
+    <li *ngFor="let item of items" data-testid="item">{{ item }}</li>
+  </ul>
+  <p *ngIf="error" data-testid="error">Error loading items</p>
+</div>
